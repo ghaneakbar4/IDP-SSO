@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "defaultProvider": "unpkg",
+  "libraries": [
+    {
+      "library": "tailwindcss@3.3.5",
+      "destination": "wwwroot/lib/tailwindcss/"
+    }
+  ]
+}

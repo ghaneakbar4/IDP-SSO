@@ -1,0 +1,25 @@
+﻿@using System.Diagnostics
+
+@{
+    var version =  FileVersionInfo.GetVersionInfo(typeof(IdentityServer4.Hosting.IdentityServerMiddleware).Assembly.Location).ProductVersion.Split('+').First();
+}
+
+<div class="welcome-page bg-green-600">
+   
+
+    <ul>
+        <li>
+           
+            <a href="~/.well-known/openid-configuration"> document</a>
+      
+        </li>
+        @* 
+        <li>
+            Click <a href="~/diagnostics">here</a> to see the claims for your current session.
+        </li> *@
+        <li>
+            Click <a href="~/grants">here</a> لاگین
+        </li>
+       
+    </ul>
+</div>

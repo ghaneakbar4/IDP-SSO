@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    @foreach(var item  in User.Claims)
+    {
+        <h4>@item.Type</h4><span>:</span><h1>@item.Value</h1>
+    }
+</div>
